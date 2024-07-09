@@ -1,10 +1,11 @@
-import 'package:flutter/cupertino.dart';
+import '../widget/widget.dart';
 
-class DeshboardItem extends StatelessWidget {
-  const DeshboardItem({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
+List<DashboardItem> catogory = [
+  DashboardItem(courseName: 'MCQS'),
+  DashboardItem(courseName: 'QUIZ'),
+  DashboardItem(courseName: 'PAPERS'),
+  DashboardItem(courseName: 'PDF'),
+  DashboardItem(courseName: 'JOBS'),
+  DashboardItem(courseName: 'ABOUT'),
+  DashboardItem(courseName: 'WOMEN'),
+];
